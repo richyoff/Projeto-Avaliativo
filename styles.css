@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1E40AF;
+    color: white;
+}
+
+.nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+/*estilização da seção Sobre*/
+.sobre-conferencia {
+    background-color: #ffffff; 
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-conferencia h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #1E40AF;
+    margin-bottom: 1.5rem;
+}
+
+.sobre-conferencia p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.sobre-conferencia figure {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.sobre-conferencia figure img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.sobre-conferencia figure figcaption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/*estilização da seção dos palestrantes*/
+.palestrantes {
+    background-color: #f9f9f9;
+    padding: 2rem 1rem;
+    max-width: 1100px;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+.palestrantes h2 {
+    text-align: center;
+    color: #1E40AF;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cards-palestrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.lista-palestrante {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.lista-palestrante img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.lista-palestrante h3 {
+    color: #1E40AF;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.lista-palestrante p {
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+
