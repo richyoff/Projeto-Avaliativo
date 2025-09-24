@@ -163,6 +163,67 @@ body {
     color: #333;
 }
 
+/*estilização do formulário*/
+.participacao {
+    background-color: #f9f9f9;
+    padding: 2rem 1rem;
+    max-width: 700px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.participacao h2 {
+    text-align: center;
+    color: #1E40AF;
+    margin-bottom: 1.5rem;
+}
+
+.form-participacao {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-campo label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-campo input[type="text"],
+.form-campo input[type="email"],
+.form-campo select,
+.form-campo textarea {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form-campo input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.form-botao {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
 /*Rodapé*/
 .footer {
     background-color: #1E40AF;
@@ -210,5 +271,3 @@ body {
     font-size: 0.9rem;
     color: #d1d5db;
 }
-
-

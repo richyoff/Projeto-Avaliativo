@@ -100,20 +100,20 @@
             </div>
         </section>
 
-        <section id="participacao">
+        <section id="participacao" class="participacao">
             <h2>Formulário de Participação</h2>
-            <form>
-                <div>
+            <form class="form-participacao">
+                <div class="form-campo">
                     <label for="nome">Nome completo:</label><br>
                     <input type="text" id="nome" name="nome" required>
                 </div>
 
-                <div>
+                <div class="form-campo">
                     <label for="email">E-mail:</label><br>
                     <input type="email" id="email" name="email" required>
                 </div>
 
-                <div>
+                <div class="form-campo">
                     <label for="ocupacao">Ocupação:</label><br>
                     <select name="ocupacao" id="ocupacao">
                         <option value="estudante">Estudante</option>
@@ -122,7 +122,7 @@
                     </select>
                 </div>
 
-                <div>
+                <div class="form-campo">
                     <p>Área de interesse:</p>
                     <label><input type="checkbox" name="interesse" value="etica">Ética</label>
                     <label><input type="checkbox" name="interesse" value="automacao">Automação</label>
@@ -130,13 +130,16 @@
                     <label><input type="checkbox" name="interesse" value="mercado">Mercado</label>
                 </div>
 
-                <div>
+                <div class="form-campo">
                     <label for="comentarios">Comentários:</label><br>
                     <textarea name="comentarios" id="comentarios" rows="4"></textarea>
                 </div>
 
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar</button>
+                <div class="form-botao">
+                    <button type="submit" class="btn">Enviar</button>
+                    <button type="reset" class="btn">Limpar</button>
+                </div>
+                
             </form>
         </section>
     </main>
