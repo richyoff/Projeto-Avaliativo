@@ -7,6 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 0;
     background-color: #f0f0f0;
     color: #333;
 }
@@ -16,7 +17,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 10px;
     background-color: #1E40AF;
     color: white;
 }
@@ -31,7 +32,7 @@ body {
 .sobre-conferencia {
     background-color: #ffffff; 
     padding: 2rem 1rem;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 2rem auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -66,6 +67,47 @@ body {
     color: #555;
     margin-top: 0.5rem;
     font-style: italic;
+}
+
+/*estilização da seção Programação*/
+.programacao {
+    background-color: #f9f9f9;
+    padding: 2rem 1rem;
+    max-width: 1100px;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+.programacao h2 {
+    text-align: center;
+    color: #1E40AF;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.grid-programacao {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.atividade {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.atividade h3 {
+    color: #1E40AF;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.atividade p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    color: #333; 
 }
 
 /*estilização da seção dos palestrantes*/
@@ -119,6 +161,54 @@ body {
     margin: 0.2rem 0;
     font-size: 0.95rem;
     color: #333;
+}
+
+/*Rodapé*/
+.footer {
+    background-color: #1E40AF;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.secao-footer h4 {
+    margin-bottom: 0.5rem;
+    color: #93C5FD; 
+}
+
+.secao-footer p,
+.secao-footer li {
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
+}
+
+.secao-footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.secao-footer a:hover {
+    color: #93C5FD;
+}
+
+.secao-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.copy-footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #d1d5db;
 }
 
 
