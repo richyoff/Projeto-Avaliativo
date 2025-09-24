@@ -8,7 +8,7 @@
 <body>
     <header>
         <!--logotipo ilustrativo da uespi-->
-        <img src="" alt="">
+        <img src="./images/logo-conferencia.png" alt="logotipo" width="150">
         <h1>Conferência de Inteligência Artificial e Sociedade</h1>
         <nav>
             <ul>
@@ -21,6 +21,7 @@
     </header>
 
     <main>
+
         <section id="sobre">
             <h2>Sobre a Conferência</h2>
             <p>A Conferência de Inteligência Artificial e Sociedade é um evento interdisciplinar promovido pela Universidade Estadual do Piauí (UESPI), que busca reunir especialistas, pesquisadores e estudantes para debater os impactos da Inteligência Artificial na vida em sociedade. O evento abordará diferentes perspectivas sobre como essa tecnologia vem transformando as relações sociais, econômicas e culturais.</p>
@@ -30,8 +31,8 @@
             <p>O encontro contará com palestras, mesas-redondas e painéis conduzidos por profissionais renomados da área. Além de ampliar o conhecimento técnico e científico, a conferência visa estimular o pensamento crítico e propor soluções inovadoras que garantam o uso responsável e sustentável da Inteligência Artificial em benefício da sociedade.</p>
 
             <figure>
-                <img src="" alt="Auditório com palestrantes">
-                <figcaption>Debate sobre Ética na IA</figcaption>
+                <img src="./images/auditorio.jpg" alt="Auditório com palestrantes">
+                <figcaption>Debate sobre Ética e Privacidade</figcaption>
             </figure>
         </section>
 
@@ -83,19 +84,19 @@
             <h2>Palestrantes Confirmados</h2>
             <div>
                 <div>
-                    <img src="" alt="">
+                    <img src="./images/palestrante1.jpg" alt="Juliana Mendes" width="200">
                     <h3>Dra. Juliana Mendes</h3>
                     <p>UESPI</p>
                     <p>Tema: IA e Mercado de Trabalho</p>
                 </div>
                 <div>
-                    <img src="" alt="">
+                    <img src="./images/palestrantre2.png" alt="Antonio Wesley" width="200">
                     <h3>Dr. Antonio Wesley</h3>
                     <p>UESPI</p>
                     <p>Tema: Ética e Sistemas Automatizados</p>
                 </div>
                 <div>
-                    <img src="" alt="">
+                    <img src="./images/palestrante3.jpg" alt="Richelle Caroline" width="200">
                     <h3>Dra. Richelle Caroline</h3>
                     <p>UESPI</p>
                     <p>Tema: Privacidade e Proteção de Dados</p>
@@ -104,6 +105,43 @@
         </section>
 
         <section id="participacao">
+            <h2>Formulário de Participação</h2>
+            <form>
+                <div>
+                    <label for="nome">Nome completo:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="ocupacao">Ocupação:</label><br>
+                    <select name="ocupacao" id="ocupacao">
+                        <option value="estudante">Estudante</option>
+                        <option value="professor">Professor</option>
+                        <option value="pesquisador">Pesquisador</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Área de interesse:</p>
+                    <label><input type="checkbox" name="interesse" value="etica">Ética</label>
+                    <label><input type="checkbox" name="interesse" value="automacao">Automação</label>
+                    <label><input type="checkbox" name="interesse" value="privacidade">Privacidade</label>
+                    <label><input type="checkbox" name="interesse" value="mercado">Mercado</label>
+                </div>
+
+                <div>
+                    <label for="comentarios">Comentários:</label><br>
+                    <textarea name="comentarios" id="comentarios" rows="4"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </form>
         </section>
     </main>
 
